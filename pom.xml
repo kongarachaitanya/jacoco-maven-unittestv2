@@ -44,18 +44,17 @@
  </build>
   
   <distributionManagement>
-	<repository>
-		<id>deployment</id>
-		<name>Internal Releases</name>
-		<url>http://35.154.238.151:8081/repository/maven-releases/</url>
-	</repository>
- 
-	<snapshotRepository>
-		<id>deployment</id>
-		<name>Internal Releases</name>
-		<url>http://35.154.238.151:8081/repository/maven-snapshots/</url>
-	</snapshotRepository>
-
+    <repository>
+        <id>deployment</id>
+        <name>Releases</name>
+        <url>http://13.232.21.76:8081/repository/maven-releases/</url>
+    </repository>
+	
+    <snapshotRepository>
+        <id>deployment</id>
+        <name>Releases</name>
+        <url>http://13.232.21.76:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
 </distributionManagement>
   
 </project>
